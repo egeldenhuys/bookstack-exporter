@@ -109,6 +109,11 @@ $ rustup target add x86_64-pc-windows-msvc.
 $ cargo xwin build --release --xwin-arch x86_64 --target x86_64-pc-windows-msvc
 ```
 
+## Contributing
+This project tries to apply the following conventions:
+- [keep a changelog](https://keepachangelog.com/en/1.1.0/)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
 ## TODO
 - [ ] Sanitize file paths
   - Only allow exporting into given directory
